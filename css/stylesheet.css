@@ -1,0 +1,162 @@
+/*hex colors: RED #4C0B14 WHITE #FFFFFF ICE BLUE #a2a79e PURPLE #2e212a BLUE GREY #3d4950 LIGHT GREY #bbc0c1*/
+/*LOGO = font-family: 'Great Vibes', cursive;
+NAV = font-family: 'Dancing Script', cursive;
+PARAGRAPHS = font-family: 'Josefin Sans', sans-serif;*/
+
+html,body {
+    margin: 0;
+    padding: 0;
+   }
+
+/*HEADER*/
+
+.logo {
+    color: #4C0B14;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    width: 600px;
+    height:200px;
+    text-align: center;
+}
+
+
+/*NAVBAR*/
+
+.navigation div {
+     display: inline-block;
+     margin:10px;
+}
+
+.navigation {
+    color: #4C0B14;
+    width:70%;
+    font-family: 'Kreon', serif;
+    font-size: 21px;
+    font-weight: bold;
+    padding-right: 100px;
+    margin-right:200px;
+    position:relative;
+    top:50px;
+    left:500px;
+    float:right;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    text-align: center;
+    position:fixed;
+    bottom:50px;
+    height:30px;
+    width:100%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*ALL TEXT LINKS*/
+
+a:link{
+  /* unvisited links */
+  color: #4C0B14;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #4C0B14;
+}
+
+
+/*ACTIVITIES PAGE*/
+
+.activitiesdescription{
+    color: #4C0B14;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 225px;
+    left: 90px;
+    font-family: 'Josefin Sans';
+    width: 300px;
+    line-height: 1.4em;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+/*DINING PAGE*/
+
+.diningdescription {
+    color: #FFFFFF;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 225px;
+    left: 90px;
+    font-family: 'Josefin Sans' ;
+    width: 300px;
+    line-height: 1.4em;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+/*LODGING PAGE*/
+
+
+.lodgingdescription {
+    /*background-color: #4C0b14;
+    opacity: 0.7;*/
+    color: #FFFFFF;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 225px;
+    left: 90px;
+    font-family: 'Josefin Sans' ;
+    width: 300px;
+    line-height: 1.4em;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+/*CONTACT PAGE*/
+
+.contactbox {
+    font-family: 'Josefin Sans';
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    color: #FFFFFF;
+    padding: 40px;
+    padding-top: 10px;
+    opacity: 0.9;
+}
+
+
