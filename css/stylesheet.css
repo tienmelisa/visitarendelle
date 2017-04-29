@@ -17,7 +17,7 @@ html,body {
     position: absolute;
     top: -25px;
     left: 20px;
-    width: 600px;
+    width: 800px;
     height:200px;
     text-align: center;
 }
@@ -40,7 +40,7 @@ html,body {
     margin-right:200px;
     position:relative;
     top:50px;
-    left:500px;
+    left:600px;
     float:right;
 }
 
@@ -101,12 +101,29 @@ a:visited {
 /*ACTIVITIES PAGE*/
 
 .activitiesdescription{
-    color: #4C0B14;
+    background-color: #4C0b14;
+    opacity: 0.7;
+    color: #FFFFFF;
     display: block;
     padding: 20px;
     position: absolute;
     top: 225px;
-    left: 90px;
+    left: 550px;
+    font-family: 'Josefin Sans';
+    width: 300px;
+    line-height: 1.4em;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+.activitiesdescription2{
+    background-color: #2e212a;
+    opacity: 0.8;
+    color: #FFFFFF;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+    left: 150px;
     font-family: 'Josefin Sans';
     width: 300px;
     line-height: 1.4em;
@@ -116,12 +133,14 @@ a:visited {
 /*DINING PAGE*/
 
 .diningdescription {
+    background-color: #4C0b14;
+    opacity: 0.7;
     color: #FFFFFF;
     display: block;
     padding: 20px;
     position: absolute;
     top: 225px;
-    left: 90px;
+    left: 200px;
     font-family: 'Josefin Sans' ;
     width: 300px;
     line-height: 1.4em;
@@ -132,14 +151,14 @@ a:visited {
 
 
 .lodgingdescription {
-    /*background-color: #4C0b14;
-    opacity: 0.7;*/
+    background-color: #4C0b14;
+    opacity: 0.7;
     color: #FFFFFF;
     display: block;
     padding: 20px;
     position: absolute;
     top: 225px;
-    left: 90px;
+    left: 550px;
     font-family: 'Josefin Sans' ;
     width: 300px;
     line-height: 1.4em;
@@ -152,7 +171,7 @@ a:visited {
     font-family: 'Josefin Sans';
     position: absolute;
     top: 220px;
-    left: 100px;
+    left: 200px;
     color: #FFFFFF;
     padding: 40px;
     padding-top: 10px;
